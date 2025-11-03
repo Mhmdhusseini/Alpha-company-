@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap');
+* { font-family: 'Cairo', sans-serif; }
+body { background: #f8f9fa; }
+.navbar { background: linear-gradient(135deg, #0d47a1, #1976d2); box-shadow: 0 2px 20px rgba(0,0,0,0.2); }
+.hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158') center/cover; min-height: 100vh; }
+.product-card { transition: all 0.3s; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+.product-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.2); }
+.product-card img { height: 250px; object-fit: cover; }
+.btn { border-radius: 25px; font-weight: bold; }
