@@ -122,4 +122,5 @@ window.deleteProduct = function(i) {
         localStorage.setItem(PRODUCTS_KEY, JSON.stringify(allProducts));
         loadAdmin();
     }
+
 };
